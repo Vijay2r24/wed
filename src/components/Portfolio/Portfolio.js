@@ -883,12 +883,10 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="our_work_section" data-aos="fade-up">
-      <h1 className="our_work_heading" data-aos="fade-right">Impacts created</h1>
-      <div className="our_work_content">
-        <div className="carousel_container" data-aos="fade-left">
-          <Carousel
-            className="carousel"
+      <div className="our_work_section">
+        <h1 className="our_work_heading">Impacts created</h1>
+        <div className="our_work_content">
+          <Carousel className="carosel"
             showArrows={true}
             showThumbs={false}
             showIndicators={true}
@@ -907,12 +905,12 @@ const Portfolio = () => {
               <img src={MCDMFWebsiteImg3} alt="Another Work 2" className="work_img" />
             </div>
           </Carousel>
+          <p className="work_description">
+          
+        We have successfully developed and launched the MCDMF website, which showcases our expertise in web development. At MCDMF - Mainframe Services, we believe in providing personalized IT solutions to our clients. We understand that every business is unique, and so are its IT needs. That’s why we work closely with our clients to understand their requirements and provide tailored solutions that fit their needs and budget. Additionally, we offer flexible pricing models to ensure that our services are accessible to all businesses.
+    </p>
         </div>
-        <p className="work_description" data-aos="fade-up">
-          We have successfully developed and launched the MCDMF website, which showcases our expertise in web development. At MCDMF - Mainframe Services, we believe in providing personalized IT solutions to our clients. We understand that every business is unique, and so are its IT needs. That’s why we work closely with our clients to understand their requirements and provide tailored solutions that fit their needs and budget. Additionally, we offer flexible pricing models to ensure that our services are accessible to all businesses.
-        </p>
       </div>
-    </div>
     </>
   );
 };
